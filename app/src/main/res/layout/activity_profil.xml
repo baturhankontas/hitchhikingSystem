@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+    android:layout_height="match_parent"
+    tools:context=".ProfilActivity">
+
+    <TextView
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+
+        android:text="Kullanıcı Adı"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:id="@+id/etUn"
+        android:gravity="center"
+        android:inputType="none"
+        android:focusable="false"
+        android:editable="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/tvP"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+
+        android:text="Pozitif Oy Sayısı"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tvN"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+
+        android:text="Pozitif Oy Sayısı"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="doExit"
+        android:layout_marginTop="30dp"
+        android:text="CIKIS YAP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
